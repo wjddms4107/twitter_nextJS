@@ -1,21 +1,14 @@
 "use client";
 
-import {useRouter} from "next/navigation";
 import style from '@/app/(beforeLogin)/_component/login.module.css';
 import {useState} from "react";
 
 export default function LoginModal() {
-  const router = useRouter();
-
   const [id, setId] = useState();
   const [password, setPassword] = useState();
   const [message, setMessage] = useState();
-
   const onSubmit = () => {};
-
-  const onClickClose = () => {
-    router.back();
-  };
+  const onClickClose = () => {};
 
   const onChangeId = () => {};
 

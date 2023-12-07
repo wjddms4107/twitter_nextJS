@@ -4,16 +4,13 @@
     background-color: #fff;
     width: 100dvw;
     height: 100dvh;
-    color: black;
 }
-
 .left {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .right {
     flex: 1;
     display: flex;
@@ -26,13 +23,11 @@
     font-size: 64px;
     margin: 48px 0;
 }
-
 .right h2 {
     font-weight: bold;
     font-size: 31px;
     margin-bottom: 32px;
 }
-
 .right h3 {
     font-weight: bold;
     font-size: 17px;
@@ -53,11 +48,9 @@
     align-items: center;
     justify-content: center;
 }
-
 .signup:hover {
     background-color: rgb(26, 140, 216);
 }
-
 .login {
     width: 300px;
     height: 40px;
@@ -70,7 +63,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .login:hover {
-    background-color: rgba(29, 155, 240, 0.1);
+    background-color: rgba(29,155,240,0.1);
 }
