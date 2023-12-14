@@ -7,11 +7,15 @@ import SearchForm from "@/app/(afterLogin)/_component/SearchForm";
 
 export default function RightSearchZone() {
   const pathname = usePathname()
+
   const onChangeFollow = () => {}
+
   const onChangeAll = () => {}
+
   if (pathname === '/explore') {
     return null;
   }
+  
   if (pathname === '/search') {
     return (
       <div>

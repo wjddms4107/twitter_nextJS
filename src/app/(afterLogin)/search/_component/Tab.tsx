@@ -7,10 +7,12 @@ export default function Tab() {
   const [current, setCurrent] = useState('hot');
   const router = useRouter();
   const searchParams = useSearchParams();
+
   const onClickHot = () => {
     setCurrent('hot');
     router.replace(`/search?q=${searchParams.get('q')}`)
   }
+  
   const onClickNew = () => {
     setCurrent('new');
     router.replace(`/search?${searchParams.toString()}&f=live`)
